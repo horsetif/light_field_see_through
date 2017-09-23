@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="..\src\async_blur.cu" />
+    <CudaCompile Include="..\src\canny.cu" />
+    <CudaCompile Include="..\src\diff_blur.cu" />
+    <CudaCompile Include="..\src\generate_bgfg.cu" />
+    <CudaCompile Include="..\src\gpu_gradient_descent.cu" />
+    <CudaCompile Include="..\src\gradient.cu" />
+    <CudaCompile Include="..\src\ransac.cu" />
+    <CudaCompile Include="..\src\spatial_coherence.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\async_blur.h" />
+    <ClInclude Include="..\src\blank.h" />
+    <ClInclude Include="..\src\canny.h" />
+    <ClInclude Include="..\src\diff.h" />
+    <ClInclude Include="..\src\diff_blur.h" />
+    <ClInclude Include="..\src\flow.h" />
+    <ClInclude Include="..\src\generate_bgfg.h" />
+    <ClInclude Include="..\src\gpu_gradient_descent.h" />
+    <ClInclude Include="..\src\gradient.h" />
+    <ClInclude Include="..\src\gradient_descent.h" />
+    <ClInclude Include="..\src\interpolate.h" />
+    <ClInclude Include="..\src\kmeans.h" />
+    <ClInclude Include="..\src\lk.h" />
+    <ClInclude Include="..\src\naive.h" />
+    <ClInclude Include="..\src\pipeline.h" />
+    <ClInclude Include="..\src\ransac.h" />
+    <ClInclude Include="..\src\spatial_coherence.h" />
+    <ClInclude Include="..\src\timing.h" />
+    <ClInclude Include="..\src\warp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\blank.cpp" />
+    <ClCompile Include="..\src\diff.cpp" />
+    <ClCompile Include="..\src\flow.cpp" />
+    <ClCompile Include="..\src\gradient_descent.cpp" />
+    <ClCompile Include="..\src\interpolate.cpp" />
+    <ClCompile Include="..\src\kmeans.cpp" />
+    <ClCompile Include="..\src\lk.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\naive.cpp" />
+    <ClCompile Include="..\src\pipeline.cpp" />
+    <ClCompile Include="..\src\warp.cpp" />
+  </ItemGroup>
+</Project>
